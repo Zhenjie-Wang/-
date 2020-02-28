@@ -1,0 +1,28 @@
+/*clearfix这个类可以解决高度塌陷和外边距重叠的问题  */
+
+.clearfix::before, .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* 设置网页字体 */
+
+body {
+    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+    min-width: 1226px;
+}
+
+/* 是指页面内容区宽度 */
+
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/* 设置超链接 */
+
+a {
+    color: #b0b0b0;
+    text-decoration: none;
+}
